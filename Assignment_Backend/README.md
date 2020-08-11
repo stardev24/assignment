@@ -1,6 +1,6 @@
-This project for assignment backend
+This project is for assignment backend
 
-## Prerequisits
+## Prerequisite
 
 Docker
 docker-compose
