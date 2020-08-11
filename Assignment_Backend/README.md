@@ -2,8 +2,8 @@ This project is for assignment backend
 
 ## Prerequisite
 
-Docker
-docker-compose
+# Docker
+# docker-compose
 
 ## Commands to run
 
