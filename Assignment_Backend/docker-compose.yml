@@ -1,0 +1,17 @@
+version: "3"
+services: 
+    app:
+        container_name: asssignment
+        restart: always
+        build: .
+        ports:
+            - "5000:5000"
+        links: 
+            - mymongodb
+
+    mymongodb:
+        container_name: mydb
+        image: mongo
+        ports: 
+            - "27017:27017"
+
